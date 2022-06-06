@@ -8,7 +8,7 @@ const questions = () => {
     return inquirer.prompt([
       {
         type: 'input',
-        name: 'name',
+        name: 'title',
         message: 'What is the title of your project? (Required)',
         validate: nameInput => {
             if(nameInput) {
@@ -34,19 +34,6 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'table of Contents',
-        message: 'Enter a table of contents?',
-        validate: nameInput => {
-            if (nameInput) {
-                return true;
-            }else {
-                console.log("Enter valid table of contents")
-                return false;
-            }
-        }
-      },
-      {
-        type: 'input',
         name: 'installation',
         message: 'What are the steps required to install your project?',
         validate: nameInput => {
@@ -59,8 +46,8 @@ const questions = () => {
         }
       },
       {
-        type: 'list',
-        name: 'License',
+        type: 'checkbox',
+        name: 'license',
         message: 'Choose a license for you application (Choose all that apply)',
         choices: ['MIT', 'Apache', 'Boost', 'Bash'],
       },
