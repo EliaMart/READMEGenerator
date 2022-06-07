@@ -1,7 +1,7 @@
 // function that returns the license section of README
 function renderLicenseSection(license) {
 
-  return `[Badge](https://img.shields.io/badge/license-${license}-blue)`
+  return `![Badge](https://img.shields.io/badge/license-${license}-blue)`
 }
 
 // Function to generate markdown for README
