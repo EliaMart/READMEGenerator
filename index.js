@@ -68,7 +68,7 @@ const questions = () => {
       {
         type: 'input',
         name: 'contributing',
-        message: 'Enter contrubuting guidelines',
+        message: 'Enter contributing guidelines',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -107,7 +107,7 @@ const questions = () => {
       {
         type: 'input',
         name: 'email',
-        message: 'Enter your email',
+        message: 'Enter your email and instructions on how to contact you',
         validate: nameInput => {
             if (nameInput) {
                 return true;
