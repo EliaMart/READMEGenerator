@@ -1,0 +1,16 @@
+## Professional README Generator 
+
+## Description 
+For this homework assigment, I needed to create a readme using a command-line application. I will take in the users input and generate a professional README.md file using the inquirer package. The application is invoked by using node index.js. 
+
+A high quality README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. When you enter the answers to the questions, they will be displayed in their correct sections once the README is created. Under the questions section you will find contact information and inctructions on how to contact the person. 
+
+Using screencastify, I took a video walking through how to create a readme in the command line and how to answer. 
+
+
+
+## Links 
+
+Here is the link to my video on screencastify: (https://drive.google.com/file/d/13ZBbsbx1VZptQ1zGTYBP3vFTBSbmWBRq/view)
+
+Here is the link to my github page: (https://eliamart.github.io/weatherDashboard/)
